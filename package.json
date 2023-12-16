@@ -2,13 +2,13 @@
   "name": "pnpm-monorepo-playground",
   "engines": {
     "node": ">=20",
-    "pnpm": ">=9"
+    "pnpm": ">=8"
   },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pnpm -C ./packages/server start:server & pnpm -C ./packages/web dev",
+    "start": "pnpm -C ./packages/server start",
     "clean": "rm -rf node_modules **/*/node_modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -14,5 +14,6 @@
 				"yzhang.markdown-all-in-one"
 			]
 		}
-	}
+	},
+	"postCreateCommand": "bash .devcontainer/post_create.sh"
 }

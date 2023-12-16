@@ -1,3 +1,3 @@
 import { getNow } from 'tools';
 
-getNow();
+console.log(getNow());
